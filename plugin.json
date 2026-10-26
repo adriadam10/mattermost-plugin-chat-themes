@@ -1,0 +1,37 @@
+{
+    "id": "com.github.adriadam10.chat-themes",
+    "name": "Chat Themes",
+    "description": "Instagram-style themes per conversation: backgrounds with colors, gradients, images, videos, patterns and animated effects, shared by every member.",
+    "homepage_url": "https://github.com/adriadam10/mattermost-plugin-chat-themes",
+    "support_url": "https://github.com/adriadam10/mattermost-plugin-chat-themes/issues",
+    "version": "0.1.0",
+    "min_server_version": "12.0.0",
+    "server": {
+        "executables": {
+            "linux-amd64": "server/dist/plugin-linux-amd64",
+            "linux-arm64": "server/dist/plugin-linux-arm64"
+        }
+    },
+    "webapp": {
+        "bundle_path": "webapp/dist/main.js"
+    },
+    "settings_schema": {
+        "header": "Every member of a conversation can change its theme; everybody in it sees the same background.",
+        "settings": [
+            {
+                "key": "MaxUploadMB",
+                "display_name": "Max upload size (MB)",
+                "type": "number",
+                "default": 15,
+                "help_text": "Largest image, GIF or video users can upload as a background (1-50). Still images are shrunk in the browser before uploading, so this mostly limits GIFs and videos."
+            },
+            {
+                "key": "AllowExternalURLs",
+                "display_name": "Allow external image and video URLs",
+                "type": "bool",
+                "default": true,
+                "help_text": "Let users point a background at an https:// URL instead of uploading it. Every member's browser then loads it from that site."
+            }
+        ]
+    }
+}

@@ -1,0 +1,508 @@
+[
+ {
+  "id": "builtin-atardecer",
+  "name": "Atardecer",
+  "light": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "linear",
+     "angle": 135,
+     "colors": [
+      "#ff7e5f",
+      "#feb47b",
+      "#ff6a88"
+     ],
+     "animation": "shift",
+     "speed": 0.6
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  },
+  "dark": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "linear",
+     "angle": 135,
+     "colors": [
+      "#3a1c71",
+      "#d76d77",
+      "#ffaf7b"
+     ],
+     "animation": "shift",
+     "speed": 0.6
+    }
+   ]
+  }
+ },
+ {
+  "id": "builtin-oceano",
+  "name": "Océano",
+  "light": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "linear",
+     "angle": 180,
+     "colors": [
+      "#a8edea",
+      "#5fc3e4",
+      "#2e9cca"
+     ]
+    },
+    {
+     "type": "particles",
+     "opacity": 0.7,
+     "particles": "bubbles",
+     "color": "#ffffff",
+     "density": 30,
+     "speed": 0.6,
+     "size": 14
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  },
+  "dark": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "linear",
+     "angle": 180,
+     "colors": [
+      "#2e9cca",
+      "#29648a",
+      "#0f2a44"
+     ]
+    },
+    {
+     "type": "particles",
+     "opacity": 0.5,
+     "particles": "bubbles",
+     "color": "#bfe9ff",
+     "density": 30,
+     "speed": 0.6,
+     "size": 14
+    }
+   ]
+  }
+ },
+ {
+  "id": "builtin-nieve",
+  "name": "Nieve",
+  "light": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "linear",
+     "angle": 180,
+     "colors": [
+      "#eef4ff",
+      "#c9d9f2"
+     ]
+    },
+    {
+     "type": "particles",
+     "opacity": 1,
+     "particles": "snow",
+     "color": "#8fb0dd",
+     "density": 80,
+     "speed": 1,
+     "size": 6
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  },
+  "dark": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "linear",
+     "angle": 180,
+     "colors": [
+      "#1e3c72",
+      "#2a5298"
+     ]
+    },
+    {
+     "type": "particles",
+     "opacity": 0.9,
+     "particles": "snow",
+     "color": "#ffffff",
+     "density": 80,
+     "speed": 1,
+     "size": 6
+    }
+   ]
+  }
+ },
+ {
+  "id": "builtin-amor",
+  "name": "Amor",
+  "light": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "radial",
+     "angle": 135,
+     "colors": [
+      "#ffdde1",
+      "#ee9ca7"
+     ]
+    },
+    {
+     "type": "particles",
+     "opacity": 0.8,
+     "particles": "hearts",
+     "color": "#ff4d6d",
+     "density": 25,
+     "speed": 0.8,
+     "size": 16
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  },
+  "dark": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "radial",
+     "angle": 135,
+     "colors": [
+      "#4a0d1f",
+      "#1a0510"
+     ]
+    },
+    {
+     "type": "particles",
+     "opacity": 0.7,
+     "particles": "hearts",
+     "color": "#ff4d6d",
+     "density": 25,
+     "speed": 0.8,
+     "size": 16
+    }
+   ]
+  }
+ },
+ {
+  "id": "builtin-galaxia",
+  "name": "Galaxia",
+  "light": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "radial",
+     "angle": 135,
+     "colors": [
+      "#3a1c71",
+      "#14143a",
+      "#000000"
+     ]
+    },
+    {
+     "type": "particles",
+     "opacity": 1,
+     "particles": "stars",
+     "color": "#ffffff",
+     "density": 120,
+     "speed": 0.3,
+     "size": 3
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  }
+ },
+ {
+  "id": "builtin-neon",
+  "name": "Neón",
+  "light": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "conic",
+     "angle": 135,
+     "colors": [
+      "#ff00cc",
+      "#3333ff",
+      "#00ffcc",
+      "#ff00cc"
+     ],
+     "animation": "rotate",
+     "speed": 0.4
+    },
+    {
+     "type": "color",
+     "opacity": 0.55,
+     "color": "#000000"
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  }
+ },
+ {
+  "id": "builtin-arcoiris",
+  "name": "Arcoíris",
+  "light": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "linear",
+     "angle": 90,
+     "colors": [
+      "#ff9a9e",
+      "#fad0c4",
+      "#a1c4fd",
+      "#c2e9fb"
+     ],
+     "animation": "hue",
+     "speed": 0.5
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  },
+  "dark": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "linear",
+     "angle": 90,
+     "colors": [
+      "#5b247a",
+      "#1bcedf",
+      "#f05f57"
+     ],
+     "animation": "hue",
+     "speed": 0.5
+    },
+    {
+     "type": "color",
+     "opacity": 0.5,
+     "color": "#000000"
+    }
+   ]
+  }
+ },
+ {
+  "id": "builtin-fiesta",
+  "name": "Fiesta",
+  "light": {
+   "layers": [
+    {
+     "type": "color",
+     "opacity": 1,
+     "color": "#fff7e6"
+    },
+    {
+     "type": "particles",
+     "opacity": 1,
+     "particles": "confetti",
+     "color": "#ff5e5b",
+     "density": 40,
+     "speed": 1,
+     "size": 9
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  },
+  "dark": {
+   "layers": [
+    {
+     "type": "color",
+     "opacity": 1,
+     "color": "#1d1b2f"
+    },
+    {
+     "type": "particles",
+     "opacity": 1,
+     "particles": "confetti",
+     "color": "#ffd166",
+     "density": 40,
+     "speed": 1,
+     "size": 9
+    }
+   ]
+  }
+ },
+ {
+  "id": "builtin-luciernagas",
+  "name": "Luciérnagas",
+  "light": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "linear",
+     "angle": 180,
+     "colors": [
+      "#0f2027",
+      "#203a43",
+      "#2c5364"
+     ]
+    },
+    {
+     "type": "particles",
+     "opacity": 1,
+     "particles": "fireflies",
+     "color": "#ffe066",
+     "density": 40,
+     "speed": 0.5,
+     "size": 4
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  }
+ },
+ {
+  "id": "builtin-cuaderno",
+  "name": "Cuaderno",
+  "light": {
+   "layers": [
+    {
+     "type": "color",
+     "opacity": 1,
+     "color": "#fdfbf3"
+    },
+    {
+     "type": "pattern",
+     "opacity": 1,
+     "pattern": "grid",
+     "color": "#c9d6e8",
+     "size": 24
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  },
+  "dark": {
+   "layers": [
+    {
+     "type": "color",
+     "opacity": 1,
+     "color": "#1c2230"
+    },
+    {
+     "type": "pattern",
+     "opacity": 1,
+     "pattern": "grid",
+     "color": "#2d3a52",
+     "size": 24
+    }
+   ]
+  }
+ },
+ {
+  "id": "builtin-lunares",
+  "name": "Lunares",
+  "light": {
+   "layers": [
+    {
+     "type": "color",
+     "opacity": 1,
+     "color": "#ffe5ec"
+    },
+    {
+     "type": "pattern",
+     "opacity": 0.8,
+     "pattern": "dots",
+     "color": "#ff8fab",
+     "size": 28,
+     "animation": "drift",
+     "speed": 0.5
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  },
+  "dark": {
+   "layers": [
+    {
+     "type": "color",
+     "opacity": 1,
+     "color": "#2a1a22"
+    },
+    {
+     "type": "pattern",
+     "opacity": 0.8,
+     "pattern": "dots",
+     "color": "#7a3350",
+     "size": 28,
+     "animation": "drift",
+     "speed": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "id": "builtin-bosque",
+  "name": "Bosque",
+  "light": {
+   "layers": [
+    {
+     "type": "gradient",
+     "opacity": 1,
+     "gradient": "linear",
+     "angle": 160,
+     "colors": [
+      "#134e5e",
+      "#71b280"
+     ]
+    },
+    {
+     "type": "pattern",
+     "opacity": 0.1,
+     "pattern": "waves",
+     "color": "#ffffff",
+     "size": 60
+    }
+   ]
+  },
+  "readability": {
+   "mode": "auto",
+   "strength": 0.5
+  }
+ }
+]
