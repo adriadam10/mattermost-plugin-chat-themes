@@ -1,11 +1,17 @@
 import React from 'react';
 
+// A div, not a <label>: Mattermost's global "label span {pointer-events: none}"
+// would make the sliders and color pickers inside ignore the mouse.
 export function Field({label, children}) {
     return (
-        <label className='ct-field'>
+        <div
+            className='ct-field'
+            role='group'
+            aria-label={label}
+        >
             <span>{label}</span>
             {children}
-        </label>
+        </div>
     );
 }
 

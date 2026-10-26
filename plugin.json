@@ -4,7 +4,7 @@
     "description": "Instagram-style themes per conversation: backgrounds with colors, gradients, images, videos, patterns and animated effects, shared by every member.",
     "homepage_url": "https://github.com/adriadam10/mattermost-plugin-chat-themes",
     "support_url": "https://github.com/adriadam10/mattermost-plugin-chat-themes/issues",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "min_server_version": "12.0.0",
     "server": {
         "executables": {

@@ -48,6 +48,7 @@ const CONVERSATION = `
 
 const UI = `
 .ct-backdrop { position: fixed; inset: 0; z-index: 1050; background: rgba(0, 0, 0, .5); display: flex; align-items: center; justify-content: center; padding: 16px; }
+.ct-modal label span, .ct-notice label span { pointer-events: auto; }
 .ct-modal { background: var(--center-channel-bg); color: var(--center-channel-color); border-radius: 12px; width: min(980px, 100%); max-height: min(92vh, 860px); display: flex; flex-direction: column; box-shadow: 0 20px 32px rgba(0,0,0,.25); overflow: hidden; }
 .ct-modal header { display: flex; align-items: center; gap: 12px; padding: 14px 20px; border-bottom: 1px solid rgba(var(--center-channel-color-rgb), .12); }
 .ct-modal header h2 { font-size: 20px; font-weight: 600; margin: 0; flex: 1; }
